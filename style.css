@@ -7,6 +7,8 @@ section{
 
 body{
     font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 p{
@@ -41,6 +43,7 @@ p{
 
 #focus-text{
     margin-top: 5%;
+    
 }
 
 #focus-text button{
@@ -113,7 +116,7 @@ p{
     width: 80%;
 }
 
-#container-img{
+.container-img{
     width: 55%;
     margin-left: 10%;
 }
@@ -121,15 +124,18 @@ p{
 
 .text{
     text-align: left;
-    width: 100%;
+    width: 80%;
+    margin-right: 50px;
 }
 
 .text p{
     line-height: 30px;
 }
 
-text h2{
+.text h2{
     line-height: 70px;
+    font-size: 50px;
+    color: #13103A;
 }
 
 /* commmunity */
@@ -140,19 +146,34 @@ text h2{
 }
 
 #community-text{
-    text-align: right;
+    margin-left: 8%;
 }
 
 
 
+.portfolio-text{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 4%;
+}
 
 
+.portfolio h1{
+    color: #13103A;
+}
 
 
+footer{
+    background-color: #13103A;
+    height: 180px;
+
+}
 
 
-
-
-
-
+footer h2{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    padding-top: 5%;
+}
 
