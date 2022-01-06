@@ -1,6 +1,4 @@
 
-
-
 section{
     margin-bottom: 100px;
 }
@@ -57,6 +55,8 @@ p{
     color: #fff;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
+    
 }
 
 
@@ -104,7 +104,6 @@ p{
     color: #f57f7f
 }
 
-
 /* develop */
 
 
@@ -149,31 +148,57 @@ p{
     margin-left: 8%;
 }
 
-
-
 .portfolio-text{
     font-size: 50px;
     text-align: center;
     margin-bottom: 4%;
 }
 
-
 .portfolio h1{
     color: #13103A;
 }
 
-
 footer{
     background-color: #13103A;
-    height: 180px;
+    height: 250px;
+    text-align: center;
 
 }
-
 
 footer h2{
     font-size: 50px;
     text-align: center;
     color: #fff;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 
+footer p{
+    padding-bottom: 5%;
+    color:#fff;
+
+}
+
+#help-bg{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+}
+
+#discussion-bg{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right;
+   
+}
+
+#members h2{
+    text-align: center;
+    color:#333333;
+}
+
+#members div{
+    text-align: center;
+    color: #13103A;
+}
